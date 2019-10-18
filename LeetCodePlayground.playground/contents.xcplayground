@@ -6,5 +6,6 @@
         <page name='Week1-11-maxArea'/>
         <page name='Week1-70-climbStairs'/>
         <page name='Week1-1-TwoSum'/>
+        <page name='Week1-15-3Sum'/>
     </pages>
 </playground>
