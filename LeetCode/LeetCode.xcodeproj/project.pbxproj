@@ -72,23 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				B8F03DE3235C6D1400EA2716 /* main.swift */,
-				B8F03DEA235C6DA900EA2716 /* Weak1 */,
+				B8F03DFB235C7FB800EA2716 /* 1-100 */,
+				B8F03DFA235C7FB700EA2716 /* 101-200 */,
+				B8F03DFC235C7FB800EA2716 /* 201-300 */,
 				B8F03DF7235C6FFF00EA2716 /* Class */,
 			);
 			path = LeetCode;
-			sourceTree = "<group>";
-		};
-		B8F03DEA235C6DA900EA2716 /* Weak1 */ = {
-			isa = PBXGroup;
-			children = (
-				B8F03DEB235C6DB600EA2716 /* 283-moveZeroes.swift */,
-				B8F03DED235C6E4300EA2716 /* 11-maxArea.swift */,
-				B8F03DEF235C6E9100EA2716 /* 70-climbStairs.swift */,
-				B8F03DF1235C6EB400EA2716 /* 1-TwoSum.swift */,
-				B8F03DF3235C6EDC00EA2716 /* 15-3Sum.swift */,
-				B8F03DF5235C6F0900EA2716 /* 206-reverse-linked-list.swift */,
-			);
-			path = Weak1;
 			sourceTree = "<group>";
 		};
 		B8F03DF7235C6FFF00EA2716 /* Class */ = {
@@ -97,6 +86,33 @@
 				B8F03DF8235C701100EA2716 /* ListNode.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		B8F03DFA235C7FB700EA2716 /* 101-200 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "101-200";
+			sourceTree = "<group>";
+		};
+		B8F03DFB235C7FB800EA2716 /* 1-100 */ = {
+			isa = PBXGroup;
+			children = (
+				B8F03DF1235C6EB400EA2716 /* 1-TwoSum.swift */,
+				B8F03DED235C6E4300EA2716 /* 11-maxArea.swift */,
+				B8F03DF3235C6EDC00EA2716 /* 15-3Sum.swift */,
+				B8F03DEF235C6E9100EA2716 /* 70-climbStairs.swift */,
+			);
+			path = "1-100";
+			sourceTree = "<group>";
+		};
+		B8F03DFC235C7FB800EA2716 /* 201-300 */ = {
+			isa = PBXGroup;
+			children = (
+				B8F03DF5235C6F0900EA2716 /* 206-reverse-linked-list.swift */,
+				B8F03DEB235C6DB600EA2716 /* 283-moveZeroes.swift */,
+			);
+			path = "201-300";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
