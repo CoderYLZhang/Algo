@@ -1,6 +1,12 @@
-/*:
- [Previous](@previous)
- */
+//
+//  283-moveZeroes.swift
+//  LeetCode
+//
+//  Created by 张银龙 on 2019/10/20.
+//  Copyright © 2019 张银龙. All rights reserved.
+//
+
+import Cocoa
 
 /*:
  给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
@@ -15,11 +21,11 @@
  >
  > 尽量减少操作次数
  
- [https://leetcode-cn.com/problems/move-zeroes/](https://leetcode-cn.com/problems/move-zeroes/)
+ https://leetcode-cn.com/problems/move-zeroes/
 */
 
-
-class Solution {
+class MoveZeroes: NSObject {
+    
     func moveZeroes(_ nums: inout [Int]) {
         
         // 记录 0 的 index
@@ -42,10 +48,3 @@ class Solution {
         }
     }
 }
-
-var list = [0,1,0,3,12]
-
-Solution().moveZeroes_2(&list)
-
-
-//: [Next](@next)
