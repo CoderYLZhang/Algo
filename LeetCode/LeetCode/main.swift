@@ -8,6 +8,6 @@
 
 import Foundation
 
-var list = [1,2,3,4,5,6,7]
-RotateArray().rotate(&list, 7)
-print(list)
+var list = [1]
+let x = LargestRectangleArea().largestRectangleArea_stack(list)
+print(x)
