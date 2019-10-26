@@ -8,6 +8,8 @@
 
 import Cocoa
 /*
+ 88. 合并两个有序数组
+ 
  给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
 
  说明:
@@ -22,7 +24,7 @@ import Cocoa
 
  输出: [1,2,2,3,5,6]
 
- 链接：https://leetcode-cn.com/problems/merge-sorted-array
+ [简单] https://leetcode-cn.com/problems/merge-sorted-array
  */
 class MergeSortedArray: NSObject {
     func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {

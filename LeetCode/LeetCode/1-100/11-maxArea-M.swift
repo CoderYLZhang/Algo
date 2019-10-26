@@ -16,7 +16,7 @@ import Cocoa
  >
  > 输出: 49
  
-链接： [11. 盛最多水的容器](https://leetcode.com/problems/container-with-most-water)
+[中等] [11. 盛最多水的容器](https://leetcode.com/problems/container-with-most-water)
  */
 class MaxArea: NSObject {
     

@@ -25,7 +25,7 @@ import Cocoa
  输出: [4,3,2,2]
  解释: 输入数组表示数字 4321。
 
- 链接：https://leetcode-cn.com/problems/plus-one
+ [简单] https://leetcode-cn.com/problems/plus-one
  */
 class PlusOne: NSObject {
     

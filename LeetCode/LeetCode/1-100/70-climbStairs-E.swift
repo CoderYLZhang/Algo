@@ -36,7 +36,7 @@ import Cocoa
 >2.  1 阶 + 2 阶
 >3.  2 阶 + 1 阶
 
-[70. 爬楼梯](https://leetcode.com/problems/climbing-stairs)
+[简单] [70. 爬楼梯](https://leetcode.com/problems/climbing-stairs)
 */
 class ClimbStairs: NSObject {
     // 菲波拉契数 f(n) = f(n-1) + f(n-2)

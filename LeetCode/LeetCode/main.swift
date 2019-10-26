@@ -8,6 +8,6 @@
 
 import Foundation
 
-var list = [1,3,-1,-3,5,3,6,7]
-let x = MaxSlidingWindow().maxSlidingWindow(list, 3)
+var list = [2,1,5,6,2,3]
+let x = LargestRectangleArea().largestRectangleArea_stack(list)
 print(x)

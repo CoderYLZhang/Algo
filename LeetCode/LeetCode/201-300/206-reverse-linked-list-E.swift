@@ -22,7 +22,7 @@ import Cocoa
  
 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
 
-[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list)
+[简单] [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list)
  
  */
 

@@ -20,7 +20,7 @@ import Cocoa
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 
-[1.两数之和](https://leetcode-cn.com/problems/two-sum)
+[简单] [1.两数之和](https://leetcode-cn.com/problems/two-sum)
 
 
 */
