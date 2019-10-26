@@ -32,7 +32,7 @@ import Cocoa
  进阶：
  你能在线性时间复杂度内解决此题吗？
 
- [困难]https://leetcode-cn.com/problems/sliding-window-maximum
+ [困难] https://leetcode-cn.com/problems/sliding-window-maximum
  */
 class MaxSlidingWindow: NSObject {
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
