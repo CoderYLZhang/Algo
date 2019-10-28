@@ -15,6 +15,8 @@
 		B86D3E1523634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E1423634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift */; };
 		B86D3E1723635A6400D618E1 /* 242-validAnagram-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E1623635A6400D618E1 /* 242-validAnagram-E.swift */; };
 		B86D3E192364A5BE00D618E1 /* 49-GroupAnagrams-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E182364A5BE00D618E1 /* 49-GroupAnagrams-M.swift */; };
+		B86D3E1B23673C9800D618E1 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E1A23673C9800D618E1 /* TreeNode.swift */; };
+		B86D3E1D2367429100D618E1 /* 94-BinaryTreeInorderTraversal-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E1C2367429100D618E1 /* 94-BinaryTreeInorderTraversal-M.swift */; };
 		B8F03DE4235C6D1400EA2716 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DE3235C6D1400EA2716 /* main.swift */; };
 		B8F03DEC235C6DB600EA2716 /* 283-moveZeroes-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DEB235C6DB600EA2716 /* 283-moveZeroes-E.swift */; };
 		B8F03DEE235C6E4300EA2716 /* 11-maxArea-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DED235C6E4300EA2716 /* 11-maxArea-M.swift */; };
@@ -49,6 +51,8 @@
 		B86D3E1423634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239-MaxSlidingWindow-H.swift"; sourceTree = "<group>"; };
 		B86D3E1623635A6400D618E1 /* 242-validAnagram-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242-validAnagram-E.swift"; sourceTree = "<group>"; };
 		B86D3E182364A5BE00D618E1 /* 49-GroupAnagrams-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49-GroupAnagrams-M.swift"; sourceTree = "<group>"; };
+		B86D3E1A23673C9800D618E1 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		B86D3E1C2367429100D618E1 /* 94-BinaryTreeInorderTraversal-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94-BinaryTreeInorderTraversal-M.swift"; sourceTree = "<group>"; };
 		B8F03DE0235C6D1400EA2716 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F03DE3235C6D1400EA2716 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B8F03DEB235C6DB600EA2716 /* 283-moveZeroes-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283-moveZeroes-E.swift"; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B8F03DF8235C701100EA2716 /* ListNode.swift */,
+				B86D3E1A23673C9800D618E1 /* TreeNode.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				B8F03DEF235C6E9100EA2716 /* 70-climbStairs-E.swift */,
 				B86D3E0D2363396800D618E1 /* 84-LargestRectangleArea-H.swift */,
 				B8F03DFF235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift */,
+				B86D3E1C2367429100D618E1 /* 94-BinaryTreeInorderTraversal-M.swift */,
 			);
 			path = "1-100";
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 				B86D3E192364A5BE00D618E1 /* 49-GroupAnagrams-M.swift in Sources */,
 				B8F03DF2235C6EB400EA2716 /* 1-TwoSum-E.swift in Sources */,
 				B86D3E0A2363304600D618E1 /* 20-validParentheses-E.swift in Sources */,
+				B86D3E1B23673C9800D618E1 /* TreeNode.swift in Sources */,
 				B86D3E1523634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift in Sources */,
 				B8F03DF6235C6F0900EA2716 /* 206-reverse-linked-list-E.swift in Sources */,
 				B8F03DF0235C6E9100EA2716 /* 70-climbStairs-E.swift in Sources */,
@@ -228,6 +235,7 @@
 				B8F03DFE235C807D00EA2716 /* 189-rotateArray-E.swift in Sources */,
 				B86D3E1323634AA800D618E1 /* 42-TrappingRainWater-H.swift in Sources */,
 				B8F03DEC235C6DB600EA2716 /* 283-moveZeroes-E.swift in Sources */,
+				B86D3E1D2367429100D618E1 /* 94-BinaryTreeInorderTraversal-M.swift in Sources */,
 				B86D3E0C2363346400D618E1 /* 155-MinStack-E.swift in Sources */,
 				B8F03E00235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift in Sources */,
 				B86D3E1723635A6400D618E1 /* 242-validAnagram-E.swift in Sources */,
