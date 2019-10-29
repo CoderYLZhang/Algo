@@ -1,5 +1,5 @@
 //
-//  590-NTreePostorderTraversal.swift
+//  589-NTreePostorderTraversal.swift
 //  LeetCode
 //
 //  Created by 张银龙 on 2019/10/30.
@@ -8,15 +8,15 @@
 
 import Cocoa
 /*
- 590. N叉树的后序遍历
+ 589. N叉树的前序遍历
  给定一个 N 叉树，返回其节点值的后序遍历。
   
- 返回其后序遍历: [5,6,3,2,4,1].
+ 返回其前序遍历: [1,3,5,6,2,4]。
  
- [简单] https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
+ [简单] https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/
  */
 class NTreePostorderTraversal: NSObject {
-    func postorder(_ root: Node?) -> [Int] {
+    func preorder(_ root: Node?) -> [Int] {
         var result: [Int] = []
         
         func traversal(_ root: Node?) {
@@ -26,12 +26,11 @@ class NTreePostorderTraversal: NSObject {
                 return
             }
             
+            result.append(root.val)
+
             for node in children {
                 traversal(node)
             }
-            
-            result.append(root.val)
-            
         }
         
         traversal(root)
