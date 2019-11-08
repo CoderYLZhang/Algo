@@ -15,7 +15,7 @@ import Cocoa
  
  [简单] https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/
  */
-class NTreePostorderTraversal: NSObject {
+class NTreePreorderTraversal: NSObject {
     func preorder(_ root: Node?) -> [Int] {
         var result: [Int] = []
         
