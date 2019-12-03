@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B86B8C322396A9960068A949 /* 50-PowXN-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B8C312396A9960068A949 /* 50-PowXN-M.swift */; };
 		B86D3E0A2363304600D618E1 /* 20-validParentheses-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E092363304600D618E1 /* 20-validParentheses-E.swift */; };
 		B86D3E0C2363346400D618E1 /* 155-MinStack-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E0B2363346400D618E1 /* 155-MinStack-E.swift */; };
 		B86D3E0E2363396800D618E1 /* 84-LargestRectangleArea-H.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D3E0D2363396800D618E1 /* 84-LargestRectangleArea-H.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B86B8C312396A9960068A949 /* 50-PowXN-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50-PowXN-M.swift"; sourceTree = "<group>"; };
 		B86D3E092363304600D618E1 /* 20-validParentheses-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20-validParentheses-E.swift"; sourceTree = "<group>"; };
 		B86D3E0B2363346400D618E1 /* 155-MinStack-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155-MinStack-E.swift"; sourceTree = "<group>"; };
 		B86D3E0D2363396800D618E1 /* 84-LargestRectangleArea-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "84-LargestRectangleArea-H.swift"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				B88F434C23804187004D65FB /* 46-Permutations-M.swift */,
 				B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */,
 				B86D3E182364A5BE00D618E1 /* 49-GroupAnagrams-M.swift */,
+				B86B8C312396A9960068A949 /* 50-PowXN-M.swift */,
 				B8F03E01235C906700EA2716 /* 66-plusOne-E.swift */,
 				B8F03DEF235C6E9100EA2716 /* 70-climbStairs-E.swift */,
 				B8E9F547237EEA6200C4F308 /* 77-Combinations-M.swift */,
@@ -277,6 +280,7 @@
 				B86D3E1B23673C9800D618E1 /* TreeNode.swift in Sources */,
 				B8E9F546237DA7F900C4F308 /* 105-ConstructBinaryTreeFromPreorderAndInorderTraversal-M.swift in Sources */,
 				B86D3E1523634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift in Sources */,
+				B86B8C322396A9960068A949 /* 50-PowXN-M.swift in Sources */,
 				B8F03DF6235C6F0900EA2716 /* 206-reverse-linked-list-E.swift in Sources */,
 				B8E9F53C237865FA00C4F308 /* 226-InvertBinaryTree-E.swift in Sources */,
 				B8E9F542237B02A200C4F308 /* 111-MinimumDepthBinaryTree-E.swift in Sources */,
