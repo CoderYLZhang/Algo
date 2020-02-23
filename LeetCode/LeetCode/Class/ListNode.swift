@@ -8,7 +8,7 @@
 
 import Cocoa
 
- public class ListNode {
+public class ListNode: NSObject {
      public var val: Int
      public var next: ListNode?
      public init(_ val: Int) {
