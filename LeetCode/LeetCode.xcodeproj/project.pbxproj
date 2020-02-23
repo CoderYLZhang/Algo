@@ -30,6 +30,7 @@
 		B88F434F23804A8C004D65FB /* 47-Permutations2-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */; };
 		B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */; };
 		B8B36C5D2402B1400009F5C1 /* 141-LinkedListCycle-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */; };
+		B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */; };
 		B8E9F53C237865FA00C4F308 /* 226-InvertBinaryTree-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9F53B237865FA00C4F308 /* 226-InvertBinaryTree-E.swift */; };
 		B8E9F53E2379AB2400C4F308 /* 98-ValidateBinarySearchTree-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9F53D2379AB2400C4F308 /* 98-ValidateBinarySearchTree-M.swift */; };
 		B8E9F540237AF85300C4F308 /* 104-MaximumDepthBinaryTree-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9F53F237AF85300C4F308 /* 104-MaximumDepthBinaryTree-E.swift */; };
@@ -86,6 +87,7 @@
 		B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "47-Permutations2-M.swift"; sourceTree = "<group>"; };
 		B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19-RemoveNthNodeFromEndOfList-M.swift"; sourceTree = "<group>"; };
 		B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141-LinkedListCycle-E.swift"; sourceTree = "<group>"; };
+		B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876-middle-of-the-linked-list-E.swift"; sourceTree = "<group>"; };
 		B8E9F53B237865FA00C4F308 /* 226-InvertBinaryTree-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226-InvertBinaryTree-E.swift"; sourceTree = "<group>"; };
 		B8E9F53D2379AB2400C4F308 /* 98-ValidateBinarySearchTree-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98-ValidateBinarySearchTree-M.swift"; sourceTree = "<group>"; };
 		B8E9F53F237AF85300C4F308 /* 104-MaximumDepthBinaryTree-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104-MaximumDepthBinaryTree-E.swift"; sourceTree = "<group>"; };
@@ -135,6 +137,21 @@
 			path = "501-600";
 			sourceTree = "<group>";
 		};
+		B8B36C5E2402B8470009F5C1 /* 701-800 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "701-800";
+			sourceTree = "<group>";
+		};
+		B8B36C5F2402B84F0009F5C1 /* 801-900 */ = {
+			isa = PBXGroup;
+			children = (
+				B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */,
+			);
+			path = "801-900";
+			sourceTree = "<group>";
+		};
 		B8F03DD7235C6D1400EA2716 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +177,8 @@
 				B8F03DFC235C7FB800EA2716 /* 201-300 */,
 				B86D3E222368A01900D618E1 /* 501-600 */,
 				B86D3E0F23634A1B00D618E1 /* 601-700 */,
+				B8B36C5E2402B8470009F5C1 /* 701-800 */,
+				B8B36C5F2402B84F0009F5C1 /* 801-900 */,
 				B8F03DF7235C6FFF00EA2716 /* Class */,
 			);
 			path = LeetCode;
@@ -296,6 +315,7 @@
 				B8E9F546237DA7F900C4F308 /* 105-ConstructBinaryTreeFromPreorderAndInorderTraversal-M.swift in Sources */,
 				B86D3E1523634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift in Sources */,
 				B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */,
+				B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */,
 				B86B8C322396A9960068A949 /* 50-PowXN-M.swift in Sources */,
 				B8F03DF6235C6F0900EA2716 /* 206-reverse-linked-list-E.swift in Sources */,
 				B8E9F53C237865FA00C4F308 /* 226-InvertBinaryTree-E.swift in Sources */,

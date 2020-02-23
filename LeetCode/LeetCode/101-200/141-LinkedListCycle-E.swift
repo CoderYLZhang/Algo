@@ -38,6 +38,8 @@ import Cocoa
  进阶：
 
  你能用 O(1)（即，常量）内存解决此问题吗？
+ 
+ [简单] https://leetcode-cn.com/problems/linked-list-cycle/
  */
 class LinkedListCycle: NSObject {
     func hasCycle(_ head: ListNode?) -> Bool {
