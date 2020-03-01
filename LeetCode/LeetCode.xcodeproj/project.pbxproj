@@ -29,6 +29,7 @@
 		B88F434D23804187004D65FB /* 46-Permutations-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F434C23804187004D65FB /* 46-Permutations-M.swift */; };
 		B88F434F23804A8C004D65FB /* 47-Permutations2-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */; };
 		B8A15B99240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B98240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift */; };
+		B8A15B9B240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */; };
 		B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */; };
 		B8B36C5D2402B1400009F5C1 /* 141-LinkedListCycle-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */; };
 		B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */; };
@@ -89,6 +90,7 @@
 		B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "47-Permutations2-M.swift"; sourceTree = "<group>"; };
 		B8A15B97240BF0E6007D5C7A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		B8A15B98240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142-linked-list-cycle-ii-M.swift"; sourceTree = "<group>"; };
+		B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24-swap-nodes-in-pairs-M.swift"; sourceTree = "<group>"; };
 		B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19-RemoveNthNodeFromEndOfList-M.swift"; sourceTree = "<group>"; };
 		B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141-LinkedListCycle-E.swift"; sourceTree = "<group>"; };
 		B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876-middle-of-the-linked-list-E.swift"; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */,
 				B8B36C622403EFC80009F5C1 /* 21-merge-two-sorted-lists-E.swift */,
 				B883266E2375B8CC00D10D80 /* 22-GenerateParentheses-M.swift */,
+				B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */,
 				B86D3E1223634AA800D618E1 /* 42-TrappingRainWater-H.swift */,
 				B88F434C23804187004D65FB /* 46-Permutations-M.swift */,
 				B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */,
@@ -325,6 +328,7 @@
 				B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */,
 				B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */,
 				B86B8C322396A9960068A949 /* 50-PowXN-M.swift in Sources */,
+				B8A15B9B240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift in Sources */,
 				B8F03DF6235C6F0900EA2716 /* 206-reverse-linked-list-E.swift in Sources */,
 				B8E9F53C237865FA00C4F308 /* 226-InvertBinaryTree-E.swift in Sources */,
 				B8E9F542237B02A200C4F308 /* 111-MinimumDepthBinaryTree-E.swift in Sources */,
