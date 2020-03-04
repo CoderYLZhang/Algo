@@ -31,6 +31,7 @@
 		B8A15B99240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B98240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift */; };
 		B8A15B9B240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */; };
 		B8A15B9D240E9CBC007D5C7A /* 20-Valid-parentheses-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B9C240E9CBC007D5C7A /* 20-Valid-parentheses-E.swift */; };
+		B8A15B9F240FED5C007D5C7A /* 225-MyStack-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A15B9E240FED5C007D5C7A /* 225-MyStack-M.swift */; };
 		B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */; };
 		B8B36C5D2402B1400009F5C1 /* 141-LinkedListCycle-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */; };
 		B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */; };
@@ -93,6 +94,7 @@
 		B8A15B98240BF124007D5C7A /* 142-linked-list-cycle-ii-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142-linked-list-cycle-ii-M.swift"; sourceTree = "<group>"; };
 		B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24-swap-nodes-in-pairs-M.swift"; sourceTree = "<group>"; };
 		B8A15B9C240E9CBC007D5C7A /* 20-Valid-parentheses-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20-Valid-parentheses-E.swift"; sourceTree = "<group>"; };
+		B8A15B9E240FED5C007D5C7A /* 225-MyStack-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "225-MyStack-M.swift"; sourceTree = "<group>"; };
 		B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19-RemoveNthNodeFromEndOfList-M.swift"; sourceTree = "<group>"; };
 		B8B36C5C2402B1400009F5C1 /* 141-LinkedListCycle-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141-LinkedListCycle-E.swift"; sourceTree = "<group>"; };
 		B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876-middle-of-the-linked-list-E.swift"; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				B8F03DF5235C6F0900EA2716 /* 206-reverse-linked-list-E.swift */,
+				B8A15B9E240FED5C007D5C7A /* 225-MyStack-M.swift */,
 				B8E9F53B237865FA00C4F308 /* 226-InvertBinaryTree-E.swift */,
 				B8E9F543237C484100C4F308 /* 236-LowestCommonAncestor-M.swift */,
 				B86D3E1423634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift */,
@@ -359,6 +362,7 @@
 				B8B36C5D2402B1400009F5C1 /* 141-LinkedListCycle-E.swift in Sources */,
 				B8F03E00235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift in Sources */,
 				B86D3E1723635A6400D618E1 /* 242-validAnagram-E.swift in Sources */,
+				B8A15B9F240FED5C007D5C7A /* 225-MyStack-M.swift in Sources */,
 				B86B8C36239D163B0068A949 /* 169-MajorityElement-E.swift in Sources */,
 				B86D3E262368A3FC00D618E1 /* 589-NTreePreorderTraversal-E.swift in Sources */,
 				B8F03DE4235C6D1400EA2716 /* main.swift in Sources */,
