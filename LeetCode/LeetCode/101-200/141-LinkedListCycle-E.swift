@@ -42,6 +42,7 @@ import Cocoa
  [简单] https://leetcode-cn.com/problems/linked-list-cycle/
  */
 class LinkedListCycle: NSObject {
+    // 快慢指针法
     func hasCycle(_ head: ListNode?) -> Bool {
         if head == nil {
             return false
@@ -57,7 +58,7 @@ class LinkedListCycle: NSObject {
             fast = fast?.next?.next
             slow = slow?.next
             
-            if fast == slow {
+            if fast === slow {
                 return true
             }
         }
@@ -65,4 +66,21 @@ class LinkedListCycle: NSObject {
         
         return false
     }
+    // 逐个删除法
+    func hasCycle2(_ head: ListNode?) -> Bool {
+        //如果head为空，或者他的next指向为空，直接返回false
+        if head == nil || head?.next == nil {
+            return false
+        }
+        //如果出现head.next = head表示有环
+        if head?.next === head {
+            return true
+        }
+        let nextNode = head?.next
+        //当前节点的next指向他自己，相当于把它删除了
+        head?.next = head
+        //然后递归，查看下一个节点
+        return hasCycle(nextNode)
+    }
+    
 }
