@@ -45,6 +45,9 @@ import Cocoa
 class Valid_parentheses: NSObject {
     func isValid(_ s: String) -> Bool {
         
+        let ood = s.count % 2
+        guard ood == 0 else { return false }
+        
         var stack = [Character]()
         
         for parenthes in s {
