@@ -57,11 +57,11 @@ class linked_list_cycle_ii: NSObject {
             slow = slow?.next
             
             // 快遇上慢, 说明有环
-            if fast == slow {
+            if fast === slow {
                 
                 var entry = head
                 
-                while entry != slow {
+                while entry !== slow {
                     entry = entry?.next
                     slow = slow?.next
                 }
