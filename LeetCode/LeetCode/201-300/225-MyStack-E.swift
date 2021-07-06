@@ -31,11 +31,7 @@ class MyStack {
     
     /** Push element x onto stack. */
     func push(_ x: Int) {
-        var temp = [x]
-        while !queue.isEmpty {
-            temp.append(queue.removeFirst())
-        }
-        queue = temp
+        queue.insert(x, at: 0)
     }
     
     /** Removes the element on top of the stack and returns that element. */
