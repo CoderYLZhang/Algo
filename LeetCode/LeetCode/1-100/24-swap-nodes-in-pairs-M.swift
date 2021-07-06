@@ -67,4 +67,14 @@ class swap_nodes_in_pairs_M: NSObject {
         }
         return next
     }
+    
+    func swapPairs2(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let newHead = head?.next
+        head?.next = swapPairs(newHead?.next)
+        newHead?.next = head
+        return newHead
+    }
 }
