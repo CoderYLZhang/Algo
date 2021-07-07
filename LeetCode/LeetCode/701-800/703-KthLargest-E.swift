@@ -73,3 +73,68 @@ class KthLargest {
     let k: Int
     var nums = [Int]()
 }
+/*
+ Construction: O(N * logK)
+ Adding: O(logK)
+ Additional memory: O(K)
+ */
+class KthLargest2 {
+    var heap: [Int]
+    var count: Int
+    var k: Int
+    
+    init(_ k: Int, _ nums: [Int]) {
+        self.k = k
+        self.count = 0
+        self.heap = Array(repeating: 0, count: k + 1)
+        for num in nums {
+            _ = add(num)
+        }
+    }
+    
+    func add(_ val: Int) -> Int {
+        if count < k {
+            insert(val)
+        } else if val > heap[1] {
+            heap[1] = val
+            heapify()
+        }
+        return heap[1]
+    }
+    
+    func insert(_ val: Int) {
+        count += 1
+        heap[count] = val
+        var j = count
+        while j / 2 > 0 && heap[j] < heap[j / 2] {
+            heap.swapAt(j, j / 2)
+            j /= 2
+        }
+    }
+
+    func heapify() {
+        var index = 1
+        while true {
+            var position = index
+
+            // 这里是最顶端和左孩子比大小 如果顶端大过左孩子 index位置交换
+            if index * 2 <= count && heap[index] > heap[index * 2] {
+                position = index * 2
+            }
+
+            // 这里是最顶端或者已经换过位置的左孩子和右孩子比大小 如果大过右孩子 index位置交换
+            if index * 2 + 1 <= count && heap[position] > heap[index * 2 + 1] {
+                position = index * 2 + 1
+            }
+
+            // 如果遇到相等情况可以跳出循环对比
+            if position == index {
+                break
+            }
+
+            //每一次比较后都要根据index交换数据位置
+            heap.swapAt(position, index)
+            index = position
+        }
+    }
+}

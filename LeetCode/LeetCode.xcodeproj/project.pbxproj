@@ -173,8 +173,8 @@
 		B8B36C5F2402B84F0009F5C1 /* 801-900 */ = {
 			isa = PBXGroup;
 			children = (
-				B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */,
 				B8A15BA2240FFA5D007D5C7A /* 844-Backspace-string-compare-E.swift */,
+				B8B36C602402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift */,
 			);
 			path = "801-900";
 			sourceTree = "<group>";
@@ -244,11 +244,11 @@
 			children = (
 				B8F03DF1235C6EB400EA2716 /* 1-TwoSum-E.swift */,
 				B8F03DED235C6E4300EA2716 /* 11-maxArea-M.swift */,
-				B86B8C37239EAB700068A949 /* 17-LetterCombinationsPhoneNumber-M.swift */,
-				B86D3E092363304600D618E1 /* 20-validParentheses-E.swift */,
 				B8F03DF3235C6EDC00EA2716 /* 15-3Sum-M.swift */,
+				B86B8C37239EAB700068A949 /* 17-LetterCombinationsPhoneNumber-M.swift */,
 				B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */,
 				B8A15B9C240E9CBC007D5C7A /* 20-Valid-parentheses-E.swift */,
+				B86D3E092363304600D618E1 /* 20-validParentheses-E.swift */,
 				B8B36C622403EFC80009F5C1 /* 21-merge-two-sorted-lists-E.swift */,
 				B883266E2375B8CC00D10D80 /* 22-GenerateParentheses-M.swift */,
 				B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */,
