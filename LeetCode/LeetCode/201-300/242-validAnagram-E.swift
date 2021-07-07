@@ -31,8 +31,12 @@ import Cocoa
 
 class ValidAnagram: NSObject {
     func isAnagram(_ s: String, _ t: String) -> Bool {
-        // 计算"a" 的 ASCII 码
-        let offset = Int("a".unicodeScalars.first?.value ?? 0)
+        if s.count != t.count {
+            return false
+        }
+        // 计算 "a" 的 ASCII 码
+        // let offset = Int("a".unicodeScalars.first?.value ?? 0)
+        let offset: Int = 97
         
         var keys: [Int] = Array(repeating: 0, count: 26)
         
@@ -48,5 +52,22 @@ class ValidAnagram: NSObject {
         }
         
         return keys == Array(repeating: 0, count: 26)
+    }
+    
+    func isAnagram2(_ s: String, _ t: String) -> Bool {
+        if s.count != t.count {
+            return false
+        }
+        var sArr = [Int](repeating: 0, count: 26)
+        var tArr = [Int](repeating: 0, count: 26)
+        for c in s.unicodeScalars {
+            let index = Int(c.value - 97)
+            sArr[index] = sArr[index] + 1
+        }
+        for c in t.unicodeScalars {
+            let index = Int(c.value - 97)
+            tArr[index] = tArr[index] + 1
+        }
+        return sArr == tArr
     }
 }
