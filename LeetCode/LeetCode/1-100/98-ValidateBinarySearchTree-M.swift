@@ -39,23 +39,25 @@ import Cocoa
  */
 
 class ValidateBinarySearchTree: NSObject {
-    
+    // 递归
     func isValidBST(_ root: TreeNode?) -> Bool {
         
-        func  isValidBST(_ root: TreeNode?, lower: Int?, upper: Int?) -> Bool {
+        func isValidBST(_ root: TreeNode?, lower: Int?, upper: Int?) -> Bool {
             guard let root = root else { return true }
             
-            let val = root.val
-            if let lower = lower, val <= lower  { return false }
-            if let upper = upper, val >= upper  { return false }
+            // 左子树有值的情况
+            if let lower = lower, root.val <= lower { return false }
+            // 右子树有值的情况
+            if let upper = upper, root.val >= upper { return false }
             
-            if !isValidBST(root.left, lower: lower, upper: val) { return false }
-            if !isValidBST(root.right, lower: val, upper: upper) { return false }
+            // 递归对比 左子树
+            if !isValidBST(root.left, lower: lower, upper: root.val) { return false }
+            // 递归对比 右子树
+            if !isValidBST(root.right, lower: root.val, upper: upper) { return false }
             
             return true
         }
         
         return isValidBST(root, lower: nil, upper: nil)
     }
-    
 }
