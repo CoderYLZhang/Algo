@@ -57,6 +57,7 @@
 		B8F03DFE235C807D00EA2716 /* 189-rotateArray-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DFD235C807D00EA2716 /* 189-rotateArray-E.swift */; };
 		B8F03E00235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DFF235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift */; };
 		B8F03E02235C906700EA2716 /* 66-plusOne-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03E01235C906700EA2716 /* 66-plusOne-E.swift */; };
+		D35536742696ABC4007ED6EF /* 18-4Sum-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35536732696ABC4007ED6EF /* 18-4Sum-M.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +125,7 @@
 		B8F03DFD235C807D00EA2716 /* 189-rotateArray-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189-rotateArray-E.swift"; sourceTree = "<group>"; };
 		B8F03DFF235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88-mergeSortedArray-E.swift"; sourceTree = "<group>"; };
 		B8F03E01235C906700EA2716 /* 66-plusOne-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66-plusOne-E.swift"; sourceTree = "<group>"; };
+		D35536732696ABC4007ED6EF /* 18-4Sum-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-4Sum-M.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				B8F03DED235C6E4300EA2716 /* 11-maxArea-M.swift */,
 				B8F03DF3235C6EDC00EA2716 /* 15-3Sum-M.swift */,
 				B86B8C37239EAB700068A949 /* 17-LetterCombinationsPhoneNumber-M.swift */,
+				D35536732696ABC4007ED6EF /* 18-4Sum-M.swift */,
 				B8B36C5A2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift */,
 				B8A15B9C240E9CBC007D5C7A /* 20-Valid-parentheses-E.swift */,
 				B86D3E092363304600D618E1 /* 20-validParentheses-E.swift */,
@@ -347,6 +350,7 @@
 				B8F03DF2235C6EB400EA2716 /* 1-TwoSum-E.swift in Sources */,
 				B86D3E0A2363304600D618E1 /* 20-validParentheses-E.swift in Sources */,
 				B86D3E1B23673C9800D618E1 /* TreeNode.swift in Sources */,
+				D35536742696ABC4007ED6EF /* 18-4Sum-M.swift in Sources */,
 				B8E9F546237DA7F900C4F308 /* 105-ConstructBinaryTreeFromPreorderAndInorderTraversal-M.swift in Sources */,
 				B86D3E1523634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift in Sources */,
 				B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */,
