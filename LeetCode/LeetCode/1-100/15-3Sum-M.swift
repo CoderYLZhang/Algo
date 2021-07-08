@@ -37,40 +37,42 @@ class ThreeSum: NSObject {
         let count = nums.count
         if count < 3 { return [] }
         
-        var allRes: [[Int]] = []
+        var allResult: [[Int]] = []
         
-        // 先排序
-        let sortedNum = nums.sorted()
-        print(sortedNum)
+        // 排序
+        let sortedNums = nums.sorted()
         
         for index in 0 ..< count - 2 {
             
-            
-            let value = sortedNum[index]
-            
-            if index > 0, value == sortedNum[index - 1] {
+            let value = sortedNums[index]
+                
+            // 去重
+            if index > 0, value == sortedNums[index - 1] {
                 continue
             }
             
             var left = index + 1
             var right = count - 1
             
+            // 双指针
             while left < right {
-                let sum = value + sortedNum[left] + sortedNum[right]
+                // 计算和
+                let sum = value + sortedNums[left] + sortedNums[right]
                 
-                
-                if sum > 0 {
-                    right -= 1
-                } else if sum < 0 {
+                if sum < 0 {
                     left += 1
+                } else if sum > 0 {
+                    right -= 1
                 } else {
-                    allRes.append([value, sortedNum[left], sortedNum[right]])
-                
-                    while left < right, sortedNum[left] == sortedNum[left + 1]   {
+                    // 存储结果
+                    allResult.append([value, sortedNums[left], sortedNums[right]])
+                    
+                    // 去重
+                    while left < right, sortedNums[left] == sortedNums[left + 1] {
                         left += 1
                     }
                     
-                    while left < right, sortedNum[right] == sortedNum[right - 1]   {
+                    while left < right, sortedNums[right] == sortedNums[right - 1] {
                         right -= 1
                     }
                     
@@ -80,7 +82,6 @@ class ThreeSum: NSObject {
             }
         }
         
-        return allRes
+        return allResult
     }
-
 }
