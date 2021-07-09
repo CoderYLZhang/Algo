@@ -28,15 +28,15 @@ import Cocoa
 
 class MajorityElement: NSObject {
     func majorityElement(_ nums: [Int]) -> Int {
-        var count = 0
-        var value = -1
+        // 记录出现次数
+        var count = 1
+        var value = nums[0]
         
-        for v in nums {
+        for index in 1 ..< nums.count {
             if count == 0 {
-                value = v
+                value = nums[index] 
             }
-            
-            count = (value == v) ? count + 1 : count - 1
+            count += value == nums[index] ? 1 : -1
         }
         
         return value
