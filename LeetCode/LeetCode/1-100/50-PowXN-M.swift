@@ -36,28 +36,27 @@ import Cocoa
 
 class PowXN: NSObject {
     func myPow(_ x: Double, _ n: Int) -> Double {
-        
-        var n = n
         var x = x
+        var n = n
         
         if n < 0 {
-            n = -n;
-            x = 1 / x;
+            n = -n
+            x = 1 / x
         }
         
-        var pow : Double = 1.0;
+        var pow: Double = 1
         
         while n > 0 {
-            
             // O(logN)
-            if n & 1 == 1{ // 奇数
-                pow = pow * x;
+            // 奇数
+            if n & 1 == 1 {
+                pow *= x
             }
             
-            x *= x;
-            n = n / 2;
+            x *= x
+            n /=  2
         }
         
-        return pow;
+        return pow
     }
 }
