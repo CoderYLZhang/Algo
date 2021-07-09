@@ -58,6 +58,7 @@
 		B8F03E00235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03DFF235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift */; };
 		B8F03E02235C906700EA2716 /* 66-plusOne-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03E01235C906700EA2716 /* 66-plusOne-E.swift */; };
 		D35536742696ABC4007ED6EF /* 18-4Sum-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35536732696ABC4007ED6EF /* 18-4Sum-M.swift */; };
+		D393BF172697F0B500672E81 /* 235-LowestCommonAncestor-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF162697F0B500672E81 /* 235-LowestCommonAncestor-E.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +127,7 @@
 		B8F03DFF235C8C4B00EA2716 /* 88-mergeSortedArray-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88-mergeSortedArray-E.swift"; sourceTree = "<group>"; };
 		B8F03E01235C906700EA2716 /* 66-plusOne-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66-plusOne-E.swift"; sourceTree = "<group>"; };
 		D35536732696ABC4007ED6EF /* 18-4Sum-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-4Sum-M.swift"; sourceTree = "<group>"; };
+		D393BF162697F0B500672E81 /* 235-LowestCommonAncestor-E.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "235-LowestCommonAncestor-E.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 				B8F03DF5235C6F0900EA2716 /* 206-reverse-linked-list-E.swift */,
 				B8A15B9E240FED5C007D5C7A /* 225-MyStack-E.swift */,
 				B8E9F53B237865FA00C4F308 /* 226-InvertBinaryTree-E.swift */,
+				D393BF162697F0B500672E81 /* 235-LowestCommonAncestor-E.swift */,
 				B8E9F543237C484100C4F308 /* 236-LowestCommonAncestor-M.swift */,
 				B86D3E1423634B0F00D618E1 /* 239-MaxSlidingWindow-H.swift */,
 				B86D3E1623635A6400D618E1 /* 242-validAnagram-E.swift */,
@@ -356,6 +359,7 @@
 				B8B36C5B2402A6B20009F5C1 /* 19-RemoveNthNodeFromEndOfList-M.swift in Sources */,
 				B8B36C612402B8630009F5C1 /* 876-middle-of-the-linked-list-E.swift in Sources */,
 				B86B8C322396A9960068A949 /* 50-PowXN-M.swift in Sources */,
+				D393BF172697F0B500672E81 /* 235-LowestCommonAncestor-E.swift in Sources */,
 				B8A15B9B240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift in Sources */,
 				B8F03DF6235C6F0900EA2716 /* 206-reverse-linked-list-E.swift in Sources */,
 				B8A15BA3240FFA5D007D5C7A /* 844-Backspace-string-compare-E.swift in Sources */,
