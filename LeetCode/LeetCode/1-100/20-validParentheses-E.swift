@@ -85,4 +85,46 @@ class ValidParentheses: NSObject {
         
         return stack.isEmpty
     }
+
+    func isValid3(_ s: String) -> Bool {
+        
+        let ood = s.count % 2
+        guard ood == 0 else { return false }
+        
+        var stack = [Character]()
+        
+        for parenthes in s {
+            if left.contains(parenthes) {
+                // 是左括号 push 右括号
+                stack.append(map[parenthes]!)
+                
+            } else {
+                // 是右括号 pop
+                // 判断最后添加的元素与现在的是否比匹配
+                if let last = stack.popLast() {
+                    if parenthes != last {
+                        return false
+                    }
+                } else {
+                    return false
+                }
+                
+            }
+        }
+        
+        return stack.isEmpty
+    }
+    
+    lazy var map: [Character: Character] = {
+        return [
+            "(": ")",
+            "[": "]",
+            "{": "}"
+        ]
+    }()
+    
+    
+    lazy var left: [Character] = {
+        return ["(", "[", "{"]
+    }()
 }

@@ -27,23 +27,23 @@ class GenerateParentheses: NSObject {
     
     func generateParenthesis(_ n: Int) -> [String] {
         
-        create(0, rightCount: 0, maxCount: n, current: "")
+        create(leftCount: 0, rightCount: 0, maxCount: n, current: "")
         
         return parentheses
     }
     
-    func create(_ leftCount: Int, rightCount: Int, maxCount: Int, current: String) {
+    func create(leftCount: Int, rightCount: Int, maxCount: Int, current: String) {
         if leftCount == maxCount, rightCount == maxCount {
             parentheses.append(current)
             return
         }
         
         if leftCount < maxCount {
-            create(leftCount + 1, rightCount: rightCount, maxCount: maxCount, current: current + "(")
+            create(leftCount: leftCount + 1, rightCount: rightCount, maxCount: maxCount, current: current + "(")
         }
         
         if rightCount < leftCount {
-            create(leftCount, rightCount: rightCount + 1, maxCount: maxCount, current: current + ")")
+            create(leftCount: leftCount, rightCount: rightCount + 1, maxCount: maxCount, current: current + ")")
         }
     }
     
