@@ -61,6 +61,7 @@
 		D393BF19269843DA00672E81 /* 122-MaxProfit-ii-E.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF18269843DA00672E81 /* 122-MaxProfit-ii-E.swift */; };
 		D393BF1B269C204700672E81 /* 102-LevelOrder-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF1A269C204700672E81 /* 102-LevelOrder-M.swift */; };
 		D393BF1D269C322B00672E81 /* 51-SolveNQueens-H.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF1C269C322B00672E81 /* 51-SolveNQueens-H.swift */; };
+		D393BF2226A0271500672E81 /* 36-IsValidSudoku-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF2126A0271400672E81 /* 36-IsValidSudoku-M.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,6 +133,7 @@
 		D393BF18269843DA00672E81 /* 122-MaxProfit-ii-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122-MaxProfit-ii-E.swift"; sourceTree = "<group>"; };
 		D393BF1A269C204700672E81 /* 102-LevelOrder-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102-LevelOrder-M.swift"; sourceTree = "<group>"; };
 		D393BF1C269C322B00672E81 /* 51-SolveNQueens-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "51-SolveNQueens-H.swift"; sourceTree = "<group>"; };
+		D393BF2126A0271400672E81 /* 36-IsValidSudoku-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36-IsValidSudoku-M.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				B8B36C622403EFC80009F5C1 /* 21-merge-two-sorted-lists-E.swift */,
 				B883266E2375B8CC00D10D80 /* 22-GenerateParentheses-M.swift */,
 				B8A15B9A240BFBB8007D5C7A /* 24-swap-nodes-in-pairs-M.swift */,
+				D393BF2126A0271400672E81 /* 36-IsValidSudoku-M.swift */,
 				B86D3E1223634AA800D618E1 /* 42-TrappingRainWater-H.swift */,
 				B88F434C23804187004D65FB /* 46-Permutations-M.swift */,
 				B88F434E23804A8B004D65FB /* 47-Permutations2-M.swift */,
@@ -375,6 +378,7 @@
 				D393BF19269843DA00672E81 /* 122-MaxProfit-ii-E.swift in Sources */,
 				B8E9F542237B02A200C4F308 /* 111-MinimumDepthBinaryTree-E.swift in Sources */,
 				B8F03DF0235C6E9100EA2716 /* 70-climbStairs-E.swift in Sources */,
+				D393BF2226A0271500672E81 /* 36-IsValidSudoku-M.swift in Sources */,
 				B8F03E02235C906700EA2716 /* 66-plusOne-E.swift in Sources */,
 				B8F03DF9235C701100EA2716 /* ListNode.swift in Sources */,
 				B86D3E2123689F5B00D618E1 /* Node.swift in Sources */,
