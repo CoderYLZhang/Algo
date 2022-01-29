@@ -62,6 +62,7 @@
 		D393BF1B269C204700672E81 /* 102-LevelOrder-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF1A269C204700672E81 /* 102-LevelOrder-M.swift */; };
 		D393BF1D269C322B00672E81 /* 51-SolveNQueens-H.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF1C269C322B00672E81 /* 51-SolveNQueens-H.swift */; };
 		D393BF2226A0271500672E81 /* 36-IsValidSudoku-M.swift in Sources */ = {isa = PBXBuildFile; fileRef = D393BF2126A0271400672E81 /* 36-IsValidSudoku-M.swift */; };
+		D3A1320227A3F5A900140828 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1320127A3F5A900140828 /* Sort.swift */; };
 		D3F2A139278ECBAF001FE9C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F2A138278ECBAF001FE9C1 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +145,7 @@
 		D393BF1A269C204700672E81 /* 102-LevelOrder-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102-LevelOrder-M.swift"; sourceTree = "<group>"; };
 		D393BF1C269C322B00672E81 /* 51-SolveNQueens-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "51-SolveNQueens-H.swift"; sourceTree = "<group>"; };
 		D393BF2126A0271400672E81 /* 36-IsValidSudoku-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36-IsValidSudoku-M.swift"; sourceTree = "<group>"; };
+		D3A1320127A3F5A900140828 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		D3F2A136278ECBAF001FE9C1 /* GeekbangDataStructureAlgo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeekbangDataStructureAlgo; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F2A138278ECBAF001FE9C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				D3F2A138278ECBAF001FE9C1 /* main.swift */,
+				D3A1320127A3F5A900140828 /* Sort.swift */,
 			);
 			path = GeekbangDataStructureAlgo;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F2A139278ECBAF001FE9C1 /* main.swift in Sources */,
+				D3A1320227A3F5A900140828 /* Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
